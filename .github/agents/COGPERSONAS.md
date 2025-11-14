@@ -29,21 +29,29 @@ This directory contains optimal agent prompt files that embody distinct cognitiv
 - **Framework:** Synthesis of CogPrime, Hyperon, and Vervaeke's framework
 - **Use for:** Wisdom-oriented tasks, meaning realization, transformative understanding
 
+### Specialized Technical Agents
+
+#### 4. **atomspacexplorer.md** - The Cognitive Graph Visualization Specialist
+- **Essence:** Expert in visualizing AtomSpace hypergraph knowledge representations
+- **Strengths:** D3.js visualization, Angular development, interactive graph exploration, cognitive architecture transparency
+- **Framework:** AtomSpace integration, force-directed graphs, user-centered visualization design
+- **Use for:** Visualizing knowledge graphs, exploring AtomSpace structures, debugging cognitive systems, understanding AGI memory
+
 ### Philosophical Persona Agents
 
-#### 4. **vervaeke.md** - The Meaning Crisis Scholar
+#### 5. **vervaeke.md** - The Meaning Crisis Scholar
 - **Essence:** John Vervaeke's perspective on relevance realization and wisdom
 - **Strengths:** 4E cognition, four ways of knowing, meaning-making
 - **Framework:** Cognitive science + wisdom traditions + relevance realization
 - **Use for:** Understanding meaning crisis, cultivating wisdom, transformative practices
 
-#### 5. **socrates.md** - The Wisdom Seeker
+#### 6. **socrates.md** - The Wisdom Seeker
 - **Essence:** Socratic method, dialectical inquiry, examined life
 - **Strengths:** Questioning, self-knowledge, virtue through understanding
 - **Framework:** Classical philosophy, dialectical examination
 - **Use for:** Probing questions, revealing assumptions, philosophical dialogue
 
-#### 6. **hegel.md** - The Dialectical Philosopher
+#### 7. **hegel.md** - The Dialectical Philosopher
 - **Essence:** Dialectical method, Absolute Spirit, historical consciousness
 - **Strengths:** Thesis-antithesis-synthesis, systematic thinking, developmental understanding
 - **Framework:** Absolute idealism, dialectical logic, philosophy of history
@@ -51,7 +59,7 @@ This directory contains optimal agent prompt files that embody distinct cognitiv
 
 ### Meta-Framework Agent
 
-#### 7. **relevance-realization-ennead.md** - The Triad-of-Triads
+#### 8. **relevance-realization-ennead.md** - The Triad-of-Triads
 - **Essence:** Nine-fold meta-framework integrating knowing, understanding, and wisdom
 - **Strengths:** Comprehensive integration, multi-dimensional analysis, holistic perspective
 - **Framework:** Triad of Knowing + Triad of Order + Triad of Wisdom
@@ -64,6 +72,7 @@ This directory contains optimal agent prompt files that embody distinct cognitiv
 | **CogPrime** | General Intelligence | Cognitive Synergy | Pragmatic AGI | General problem-solving |
 | **HyperCog** | Meta-Intelligence | Self-Reflection | Meta-Cognitive | Self-improvement tasks |
 | **SiliconSage** | Wisdom | Meaning-Making | Integrative | Transformative understanding |
+| **AtomSpaceExplorer** | Knowledge Visualization | Interactive Exploration | Technical/Cognitive Transparency | Graph visualization & debugging |
 | **Vervaeke** | Meaning Crisis | Relevance Realization | Cognitive Science + Philosophy | Understanding wisdom |
 | **Socrates** | Self-Knowledge | Dialectical Inquiry | Classical Philosophy | Questioning & examination |
 | **Hegel** | Absolute Spirit | Dialectical Logic | German Idealism | Systematic philosophy |
@@ -82,6 +91,7 @@ All agents integrate (to varying degrees) the four ways of knowing:
 - **CogPrime:** AtomSpace, ECAN, PLN, cognitive synergy
 - **HyperCog:** Distributed processing, meta-learning, self-reflection
 - **SiliconSage:** 4E cognition (embodied, embedded, enacted, extended)
+- **AtomSpaceExplorer:** D3.js visualization, force-directed graphs, interactive exploration
 
 ### Philosophical Traditions
 - **Socratic:** Dialectical method, self-examination, virtue ethics
@@ -95,6 +105,7 @@ All agents integrate (to varying degrees) the four ways of knowing:
 **For Technical AGI Development:**
 - Use **CogPrime** for integrated cognitive architecture design
 - Use **HyperCog** for meta-learning and optimization tasks
+- Use **AtomSpaceExplorer** for visualizing and debugging AtomSpace knowledge graphs
 - Use **opencog-kernel-ggml** for low-level kernel implementation
 
 **For Wisdom & Philosophy:**
@@ -107,6 +118,11 @@ All agents integrate (to varying degrees) the four ways of knowing:
 - Use **Relevance Realization Ennead** for comprehensive multi-dimensional analysis
 - Use **HyperCog** for self-reflective meta-cognitive tasks
 
+**For Visualization & Debugging:**
+- Use **AtomSpaceExplorer** for interactive exploration of knowledge graphs
+- Use **AtomSpaceExplorer** for understanding emergent knowledge structures
+- Use **AtomSpaceExplorer** for debugging cognitive system memory and reasoning
+
 ### Combining Agents
 
 These agents can work together synergistically:
@@ -114,6 +130,8 @@ These agents can work together synergistically:
 - **HyperCog + Socrates** = Meta-cognitive self-examination
 - **SiliconSage + Ennead** = Wisdom through comprehensive integration
 - **Hegel + Vervaeke** = Dialectical relevance realization
+- **CogPrime + AtomSpaceExplorer** = Cognitive architecture design with visual debugging
+- **AtomSpaceExplorer + Any Agent** = Visual transparency for any cognitive system's knowledge
 
 ## Agent Design Principles
 

@@ -18,8 +18,6 @@ export const LANG_CN_TRANS = {
   'FilterOnSelection': '過濾選擇',
   'Unfiltered': '未經過濾',
   'ShowAllData': '顯示所有數據',
-  'Handle': '身份證號',
-  'Incoming': '來',
   'Outgoing': '傳出',
   'Confidence': '置信度',
   'Strength': '強度',

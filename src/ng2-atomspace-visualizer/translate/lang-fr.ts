@@ -18,8 +18,6 @@ export const LANG_FR_TRANS = {
   'FilterOnSelection': 'FILTRE SUR SELECTION',
   'Unfiltered': 'Non filtré',
   'ShowAllData': 'Afficher toutes les données',
-  'Handle': 'Manipuler',
-  'Incoming': 'Entrant',
   'Outgoing': 'Sortant',
   'Confidence': 'Confiance',
   'Strength': 'Force',

@@ -1828,12 +1828,37 @@ export class VisualizerComponent implements AfterViewInit, OnInit, OnDestroy, On
         const translate = VisualizerComponent.this()._translate;
         let outgoing = d.outgoing && d.outgoing.length ? d.outgoing.join(', ') : '';
         if (outgoing.length > maxTooltipInOutLength) { outgoing = outgoing.substr(0, maxTooltipInOutLength - 3) + '...'; }
+        
+        // Build TruthValue rows dynamically
+        let tvRows = '';
+        if (d.tv && d.tv.details) {
+          // Show TruthValue type if available
+          if (d.tv.type) {
+            tvRows += '<tr> <td> <span>TV Type</span> </td> <td>' + d.tv.type + '</td> </tr>';
+          }
+          // Dynamically show all TruthValue details
+          const tvDetails = d.tv.details;
+          if (tvDetails.strength !== undefined) {
+            tvRows += '<tr> <td> <span>' + translate.instant('Strength') + '</span> </td> <td>' + tvDetails.strength + '</td> </tr>';
+          }
+          if (tvDetails.confidence !== undefined) {
+            tvRows += '<tr> <td> <span>' + translate.instant('Confidence') + '</span> </td> <td>' + tvDetails.confidence + '</td> </tr>';
+          }
+          if (tvDetails.count !== undefined) {
+            tvRows += '<tr> <td> <span>Count</span> </td> <td>' + tvDetails.count + '</td> </tr>';
+          }
+          // Show any other TruthValue fields
+          for (const key in tvDetails) {
+            if (key !== 'strength' && key !== 'confidence' && key !== 'count') {
+              tvRows += '<tr> <td> <span>' + key + '</span> </td> <td>' + tvDetails[key] + '</td> </tr>';
+            }
+          }
+        }
+        
         return '<div class=\'html-detailed-tooltip\'> <table class=\'ui celled striped table\'> <thead> <tr> <th colspan=\'2\'>' +
           headText + '</th> </tr> </thead> <tbody> <tr> <td> <span>' + translate.instant('Outgoing') + '</span> </td> <td>' + outgoing +
           '</td> </tr> <tr> <td> <span>LTI</span> </td> <td>' + d.av.lti + '</td> </tr> <tr> <td> <span>STI</span> </td> <td>' +
-          d.av.sti + '</td> </tr> <tr> <td> <span>VLTI</span> </td> <td>' + d.av.vlti + '</td> </tr> <tr> <td> <span>' +
-          translate.instant('Confidence') + '</span> </td> <td>' + d.tv.details.confidence + '</td> </tr> <tr> <td> <span>' +
-          translate.instant('Strength') + '</span> </td> <td>' + d.tv.details.strength + '</td> </tr> </tbody> </table> </div>';
+          d.av.sti + '</td> </tr> <tr> <td> <span>VLTI</span> </td> <td>' + d.av.vlti + '</td> </tr>' + tvRows + '</tbody> </table> </div>';
       } else {
         return '<div class=\'html-tooltip\'> <table class=\'ui celled striped table\'> <tbody> <tr> <td nowrap>' + headText +
           '</td> </tr> </tbody> </table> </div>';

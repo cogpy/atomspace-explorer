@@ -87,17 +87,29 @@
               </td>
                 <td>{{ selectedNodeData.av.vlti }}</td>
             </tr>
-            <tr>
+            <tr *ngIf="selectedNodeData.tv?.type">
+              <td>
+                <span>TV Type</span>
+              </td>
+                <td>{{ selectedNodeData.tv.type }}</td>
+            </tr>
+            <tr *ngIf="selectedNodeData.tv?.details?.strength !== undefined">
+              <td>
+                <span>{{ 'Strength' | translate }}</span>
+              </td>
+                <td>{{ selectedNodeData.tv.details.strength }}</td>
+            </tr>
+            <tr *ngIf="selectedNodeData.tv?.details?.confidence !== undefined">
               <td>
                 <span>{{ 'Confidence' | translate }}</span>
               </td>
                 <td>{{ selectedNodeData.tv.details.confidence }}</td>
             </tr>
-            <tr>
+            <tr *ngIf="selectedNodeData.tv?.details?.count !== undefined">
               <td>
-                <span>{{ 'Strength' | translate }}</span>
+                <span>Count</span>
               </td>
-                <td>{{ selectedNodeData.tv.details.strength }}</td>
+                <td>{{ selectedNodeData.tv.details.count }}</td>
             </tr>
           </tbody>
         </table>

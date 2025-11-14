@@ -171,12 +171,17 @@ for comparison.
   Sample files have been converted to the new JSON format. Old format
   files are retained for backward compatibility.
 
-- Stop showing Handle and Incoming in the GUI -- these are dynamically
+- ~~Stop showing Handle and Incoming in the GUI -- these are dynamically
   assigned garbage values that have no meaning in the new format and
-  should be removed from the visualization.
+  should be removed from the visualization.~~ ✅ **DONE**: Handle and 
+  Incoming fields have been removed from both regular and detailed tooltips, 
+  as well as from the selected node properties display.
   
-- Change popup to show all Values, and not just Attention and Truth
-  Values. In particular, show the count of a CountTruthValue.
+- ~~Change popup to show all Values, and not just Attention and Truth
+  Values. In particular, show the count of a CountTruthValue.~~ ✅ **DONE**:
+  Tooltips and selected node properties now dynamically display all TruthValue
+  fields including type, strength, confidence, count, and any other custom
+  fields that may be present in the TruthValue details.
 
 - Filtering capability is preliminary and needs to be developed further.
   Filtering is the ability to show only the relevant parts of the

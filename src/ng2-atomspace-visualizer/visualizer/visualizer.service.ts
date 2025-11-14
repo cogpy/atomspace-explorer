@@ -12,14 +12,82 @@ declare var d3:any;
 export class VisualizerService {
   nodes:Node[] = [];
   links:Link[] = [];
+  private atomIdMap: Map<any, string> = new Map();
+  private nextId: number = 1;
+  
   constructor() { }
+  
   public getParsedJson(atoms):Graph{
     let parsedJson: Graph = <Graph>{};
-    this.getNodes(atoms);
-    this.getLinks(atoms);
+    // Reset ID tracking for each parse
+    this.atomIdMap.clear();
+    this.nextId = 1;
+    
+    // Normalize atoms to flat array with handles/IDs
+    const normalizedAtoms = this.normalizeAtoms(atoms);
+    
+    this.getNodes(normalizedAtoms);
+    this.getLinks(normalizedAtoms);
     parsedJson.nodes = this.nodes;
     parsedJson.links = this.links;
     return parsedJson;
+  }
+  
+  /**
+   * Normalize atoms to a consistent format with handles/IDs.
+   * Supports both old format (with handles) and new format (nested atoms).
+   */
+  private normalizeAtoms(atoms: any[]): any[] {
+    const normalized = [];
+    const atomMap = new Map();
+    
+    // First pass: flatten nested atoms and assign IDs
+    const flattenAtom = (atom: any, depth: number = 0): string => {
+      // Generate a unique key for this atom
+      const key = JSON.stringify({ type: atom.type, name: atom.name || '' });
+      
+      if (atomMap.has(key)) {
+        return atomMap.get(key);
+      }
+      
+      const id = atom.handle || this.generateId();
+      atomMap.set(key, id);
+      
+      const flatAtom: any = {
+        handle: id,
+        type: atom.type,
+        name: atom.name || '',
+        incoming: atom.incoming || [],
+        outgoing: [],
+        attentionvalue: atom.attentionvalue || atom.av || { sti: 0, lti: 0, vlti: false },
+        truthvalue: atom.truthvalue || atom.tv || { type: 'simple', details: { strength: 1.0, confidence: 0.0, count: 0.0 } }
+      };
+      
+      // Process outgoing links
+      if (atom.outgoing && Array.isArray(atom.outgoing)) {
+        if (atom.outgoing.length > 0) {
+          if (typeof atom.outgoing[0] === 'object') {
+            // New format: outgoing contains nested atoms
+            flatAtom.outgoing = atom.outgoing.map(child => flattenAtom(child, depth + 1));
+          } else {
+            // Old format: outgoing contains handles
+            flatAtom.outgoing = atom.outgoing;
+          }
+        }
+      }
+      
+      normalized.push(flatAtom);
+      return id;
+    };
+    
+    // Flatten all atoms
+    atoms.forEach(atom => flattenAtom(atom));
+    
+    return normalized;
+  }
+  
+  private generateId(): string {
+    return 'atom_' + (this.nextId++);
   }
   private getNodes(atoms){
     this.nodes = []

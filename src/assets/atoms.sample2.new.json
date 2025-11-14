@@ -1,0 +1,5009 @@
+[
+  {
+    "type": "ConceptNode",
+    "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "speed"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "he"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+  },
+  {
+    "type": "NumberNode",
+    "name": "44.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "43.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "38.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "39.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "41.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "30.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "40.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "32.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "35.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "29.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "33.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "42.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "31.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "37.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "34.000000"
+  },
+  {
+    "type": "NumberNode",
+    "name": "36.000000"
+  },
+  {
+    "type": "SetLink",
+    "outgoing": [
+      {
+        "type": "ImplicationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "run"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          },
+          {
+            "type": "ConceptNode",
+            "name": "he"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "present"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "DefinedLinguisticPredicateNode",
+            "name": "definite"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "InterpretationNode",
+            "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "DeclarativeSpeechAct"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "SetLink",
+    "outgoing": [
+      {
+        "type": "ImplicationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "run"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          },
+          {
+            "type": "ConceptNode",
+            "name": "he"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          },
+          {
+            "type": "ConceptNode",
+            "name": "speed"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "SatisfyingSetLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+              }
+            ]
+          },
+          {
+            "type": "ConceptNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "present"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "InterpretationNode",
+            "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "DeclarativeSpeechAct"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "DefinedLinguisticPredicateNode",
+            "name": "definite"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "SetLink",
+    "outgoing": [
+      {
+        "type": "ImplicationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "run"
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          },
+          {
+            "type": "ConceptNode",
+            "name": "he"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "present"
+          }
+        ]
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "DefinedLinguisticPredicateNode",
+            "name": "definite"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "InheritanceLink",
+        "outgoing": [
+          {
+            "type": "InterpretationNode",
+            "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+          },
+          {
+            "type": "DefinedLinguisticConceptNode",
+            "name": "DeclarativeSpeechAct"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "AnchorNode",
+        "name": "# New Parsed Sentence"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "AnchorNode",
+        "name": "# New Parsed Sentence"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      }
+    ]
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "AnchorNode",
+        "name": "# New Parsed Sentence"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "DeclarativeSpeechAct"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "DeclarativeSpeechAct"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "speed"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "pronoun"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "DeclarativeSpeechAct"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "singular"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "definite"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": ".v"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "masculine"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "singular"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": ".v"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": ".v"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "SatisfyingSetLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          }
+        ]
+      },
+      {
+        "type": "ConceptNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "pronoun"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "masculine"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "definite"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "pronoun"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "present"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "singular"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "masculine"
+      }
+    ]
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "definite"
+      }
+    ]
+  },
+  {
+    "type": "SatisfyingSetLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      }
+    ]
+  },
+  {
+    "type": "ImplicationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "ImplicationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "ImplicationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticRelationshipNode",
+        "name": "_subj"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@90f5e59e-d7e3-470d-a213-47dfb642af5c"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticPredicateNode",
+        "name": "definite"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@3bc94a11-569b-44d2-a3f2-56927fa2811a"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@65356044-9b52-4580-81c2-5fe7c90553d7"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "MVa"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticRelationshipNode",
+        "name": "_subj"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@58792729-0309-4fc1-afdc-267b6908791b"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@c8ca87c2-3064-48e1-bce8-4e10dab8fea5"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@cbd19ce8-c893-49c5-8b19-0e1a2d06a43f"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@44355044-58b9-44ad-8406-58cc60a9bbc5"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@57a18b7c-2fdf-40b2-aaf3-a444bf7df212"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticPredicateNode",
+        "name": "definite"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticPredicateNode",
+        "name": "definite"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticRelationshipNode",
+        "name": "_advmod"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@179225fd-e0c2-479e-8a2e-ccb0d69b93fd"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@45cfbdac-5eb0-48f2-889c-e42c204e1458"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@0f5eee7a-7541-49b3-9057-e831f402fb0b"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticRelationshipNode",
+        "name": "_subj"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@d6dae407-a5b9-4ef7-9aaf-f1177d45faf7"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PredicateNode",
+    "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "run"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+  },
+  {
+    "type": "AnchorNode",
+    "name": "# New Parsed Sentence"
+  },
+  {
+    "type": "WordNode",
+    "name": "\ud83c\udf0e"
+  },
+  {
+    "type": "WordNode",
+    "name": "run"
+  },
+  {
+    "type": "WordNode",
+    "name": "runs"
+  },
+  {
+    "type": "WordNode",
+    "name": "."
+  },
+  {
+    "type": "WordNode",
+    "name": "he"
+  },
+  {
+    "type": "WordNode",
+    "name": "###LEFT-WALL###"
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@44355044-58b9-44ad-8406-58cc60a9bbc5"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordNode",
+        "name": "\ud83c\udf0e"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@3bc94a11-569b-44d2-a3f2-56927fa2811a"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "WordNode",
+        "name": "###LEFT-WALL###"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@d6dae407-a5b9-4ef7-9aaf-f1177d45faf7"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordNode",
+        "name": "runs"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@0f5eee7a-7541-49b3-9057-e831f402fb0b"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "WordNode",
+        "name": "###LEFT-WALL###"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@c8ca87c2-3064-48e1-bce8-4e10dab8fea5"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+      },
+      {
+        "type": "SetLink",
+        "outgoing": [
+          {
+            "type": "ImplicationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "run"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+              },
+              {
+                "type": "ConceptNode",
+                "name": "he"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "present"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "DefinedLinguisticPredicateNode",
+                "name": "definite"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "InterpretationNode",
+                "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "DeclarativeSpeechAct"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@65356044-9b52-4580-81c2-5fe7c90553d7"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@58792729-0309-4fc1-afdc-267b6908791b"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Xp"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@cbd19ce8-c893-49c5-8b19-0e1a2d06a43f"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@179225fd-e0c2-479e-8a2e-ccb0d69b93fd"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Ss"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@57a18b7c-2fdf-40b2-aaf3-a444bf7df212"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "WordNode",
+        "name": "runs"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+      },
+      {
+        "type": "SetLink",
+        "outgoing": [
+          {
+            "type": "ImplicationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "run"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+              },
+              {
+                "type": "ConceptNode",
+                "name": "he"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+              },
+              {
+                "type": "ConceptNode",
+                "name": "speed"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "SatisfyingSetLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+                  }
+                ]
+              },
+              {
+                "type": "ConceptNode",
+                "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "present"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "InterpretationNode",
+                "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "DeclarativeSpeechAct"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "DefinedLinguisticPredicateNode",
+                "name": "definite"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "WordNode",
+        "name": "runs"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "WordNode",
+        "name": "###LEFT-WALL###"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "MVa"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+      },
+      {
+        "type": "SetLink",
+        "outgoing": [
+          {
+            "type": "ImplicationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "run"
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "ConceptNode",
+                "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+              },
+              {
+                "type": "ConceptNode",
+                "name": "he"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "present"
+              }
+            ]
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "DefinedLinguisticPredicateNode",
+                "name": "definite"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "ConceptNode",
+                    "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "InheritanceLink",
+            "outgoing": [
+              {
+                "type": "InterpretationNode",
+                "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+              },
+              {
+                "type": "DefinedLinguisticConceptNode",
+                "name": "DeclarativeSpeechAct"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@45cfbdac-5eb0-48f2-889c-e42c204e1458"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "Wd"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@90f5e59e-d7e3-470d-a213-47dfb642af5c"
+      },
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "WV"
+      }
+    ]
+  },
+  {
+    "type": "SentenceNode",
+    "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93"
+  },
+  {
+    "type": "SentenceNode",
+    "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e"
+  },
+  {
+    "type": "SentenceNode",
+    "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b"
+  },
+  {
+    "type": "ParseNode",
+    "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+  },
+  {
+    "type": "ParseNode",
+    "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+  },
+  {
+    "type": "ParseNode",
+    "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+  },
+  {
+    "type": "ParseLink",
+    "outgoing": [
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93"
+      }
+    ]
+  },
+  {
+    "type": "ParseLink",
+    "outgoing": [
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e"
+      }
+    ]
+  },
+  {
+    "type": "ParseLink",
+    "outgoing": [
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "SentenceNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "NumberNode",
+        "name": "43.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "NumberNode",
+        "name": "29.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "NumberNode",
+        "name": "37.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "NumberNode",
+        "name": "42.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "NumberNode",
+        "name": "30.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "NumberNode",
+        "name": "31.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "NumberNode",
+        "name": "36.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "NumberNode",
+        "name": "32.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "NumberNode",
+        "name": "40.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "NumberNode",
+        "name": "41.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "NumberNode",
+        "name": "35.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "NumberNode",
+        "name": "34.000000"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "NumberNode",
+        "name": "39.000000"
+      }
+    ]
+  },
+  {
+    "type": "SentenceSequenceLink",
+    "outgoing": [
+      {
+        "type": "SentenceNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93"
+      },
+      {
+        "type": "NumberNode",
+        "name": "44.000000"
+      }
+    ]
+  },
+  {
+    "type": "SentenceSequenceLink",
+    "outgoing": [
+      {
+        "type": "SentenceNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e"
+      },
+      {
+        "type": "NumberNode",
+        "name": "38.000000"
+      }
+    ]
+  },
+  {
+    "type": "SentenceSequenceLink",
+    "outgoing": [
+      {
+        "type": "SentenceNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b"
+      },
+      {
+        "type": "NumberNode",
+        "name": "33.000000"
+      }
+    ]
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "Xp"
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "Wd"
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "MVa"
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "WV"
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "Ss"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "adv"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "present"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": ".v"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "pronoun"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "masculine"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "definite"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "punctuation"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "singular"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "DeclarativeSpeechAct"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "verb"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "noun"
+  },
+  {
+    "type": "DefinedLinguisticPredicateNode",
+    "name": "definite"
+  },
+  {
+    "type": "DefinedLinguisticRelationshipNode",
+    "name": "_advmod"
+  },
+  {
+    "type": "DefinedLinguisticRelationshipNode",
+    "name": "_subj"
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "noun"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "verb"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "adv"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "noun"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "punctuation"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "punctuation"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "verb"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "noun"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "punctuation"
+      }
+    ]
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "verb"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "WordNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordNode",
+        "name": "\ud83c\udf0e"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "WordNode",
+        "name": "."
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "WordNode",
+        "name": "run"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "InterpretationNode",
+    "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+  },
+  {
+    "type": "InterpretationNode",
+    "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+  },
+  {
+    "type": "InterpretationNode",
+    "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+  },
+  {
+    "type": "InterpretationLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0_interpretation_$X"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "InterpretationLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0_interpretation_$X"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "InterpretationLink",
+    "outgoing": [
+      {
+        "type": "InterpretationNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0_interpretation_$X"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "MVa"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "MV"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "dWV"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "Ss"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "RW"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "Xp"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "hWV"
+  },
+  {
+    "type": "LgConnectorNode",
+    "name": "Wd"
+  },
+  {
+    "type": "LgConnDirNode",
+    "name": "-"
+  },
+  {
+    "type": "LgConnDirNode",
+    "name": "+"
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Wd"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "MV"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "hWV"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "RW"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Wd"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "-"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "MVa"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "-"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Ss"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Ss"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "-"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "dWV"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "-"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Xp"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "+"
+      }
+    ]
+  },
+  {
+    "type": "LgConnector",
+    "outgoing": [
+      {
+        "type": "LgConnectorNode",
+        "name": "Xp"
+      },
+      {
+        "type": "LgConnDirNode",
+        "name": "-"
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "MVa"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "dWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "MV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "RW"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "dWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgAnd",
+    "outgoing": [
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "hWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@9d9fdef4-db0f-4ad4-908f-7d397e6eb0d1"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "RW"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "MVa"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "hWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@838adddd-073f-4e19-8e53-2f6b398809ea"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "dWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@7385a85d-928e-4d89-a87f-6f36a470491e_parse_0"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "hWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@fdd913dc-2262-46ca-94e1-eda3630fcbe9"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "RW"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "dWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "MV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "LEFT-WALL@sentence@17302cea-0d43-40f0-b454-311c18d6478b_parse_0"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "hWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Wd"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@3c28a178-5584-4800-bef7-68f7c25a9f78"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Ss"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "dWV"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgWordCset",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": ".@7eb1de0f-f72e-4a1f-a881-47341119a150"
+      },
+      {
+        "type": "LgAnd",
+        "outgoing": [
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "Xp"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "-"
+              }
+            ]
+          },
+          {
+            "type": "LgConnector",
+            "outgoing": [
+              {
+                "type": "LgConnectorNode",
+                "name": "RW"
+              },
+              {
+                "type": "LgConnDirNode",
+                "name": "+"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "WV@90f5e59e-d7e3-470d-a213-47dfb642af5c"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Ss@cbd19ce8-c893-49c5-8b19-0e1a2d06a43f"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Wd@57a18b7c-2fdf-40b2-aaf3-a444bf7df212"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "WV@65356044-9b52-4580-81c2-5fe7c90553d7"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Ss@179225fd-e0c2-479e-8a2e-ccb0d69b93fd"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Xp@0f5eee7a-7541-49b3-9057-e831f402fb0b"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Ss@c8ca87c2-3064-48e1-bce8-4e10dab8fea5"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Wd@45cfbdac-5eb0-48f2-889c-e42c204e1458"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Wd@3bc94a11-569b-44d2-a3f2-56927fa2811a"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Xp@58792729-0309-4fc1-afdc-267b6908791b"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "WV@d6dae407-a5b9-4ef7-9aaf-f1177d45faf7"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "Xp@44355044-58b9-44ad-8406-58cc60a9bbc5"
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@90f5e59e-d7e3-470d-a213-47dfb642af5c"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "hWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "dWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@cbd19ce8-c893-49c5-8b19-0e1a2d06a43f"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@c8ca87c2-3064-48e1-bce8-4e10dab8fea5"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "MV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "MVa"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@57a18b7c-2fdf-40b2-aaf3-a444bf7df212"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@58792729-0309-4fc1-afdc-267b6908791b"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@44355044-58b9-44ad-8406-58cc60a9bbc5"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@65356044-9b52-4580-81c2-5fe7c90553d7"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "hWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "dWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Ss@179225fd-e0c2-479e-8a2e-ccb0d69b93fd"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Ss"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@3bc94a11-569b-44d2-a3f2-56927fa2811a"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Wd@45cfbdac-5eb0-48f2-889c-e42c204e1458"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Wd"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "WV@d6dae407-a5b9-4ef7-9aaf-f1177d45faf7"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "hWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "dWV"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "Xp@0f5eee7a-7541-49b3-9057-e831f402fb0b"
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "+"
+          }
+        ]
+      },
+      {
+        "type": "LgConnector",
+        "outgoing": [
+          {
+            "type": "LgConnectorNode",
+            "name": "Xp"
+          },
+          {
+            "type": "LgConnDirNode",
+            "name": "-"
+          }
+        ]
+      }
+    ]
+  }
+]

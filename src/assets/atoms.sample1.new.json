@@ -1,0 +1,162 @@
+[
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LOC285484"
+      },
+      {
+        "type": "LambdaLink",
+        "outgoing": [
+          {
+            "type": "VariableNode",
+            "name": "$X"
+          },
+          {
+            "type": "EvaluationLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "overexpressed"
+              },
+              {
+                "type": "ListLink",
+                "outgoing": [
+                  {
+                    "type": "GeneNode",
+                    "name": "LOC285483"
+                  },
+                  {
+                    "type": "VariableNode",
+                    "name": "$X"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PredicateNode",
+    "name": "LOC285484"
+  },
+  {
+    "type": "LambdaLink",
+    "outgoing": [
+      {
+        "type": "VariableNode",
+        "name": "$X"
+      },
+      {
+        "type": "EvaluationLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "overexpressed"
+          },
+          {
+            "type": "ListLink",
+            "outgoing": [
+              {
+                "type": "GeneNode",
+                "name": "LOC285483"
+              },
+              {
+                "type": "VariableNode",
+                "name": "$X"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "VariableNode",
+    "name": "$X"
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "overexpressed"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "GeneNode",
+            "name": "LOC285483"
+          },
+          {
+            "type": "VariableNode",
+            "name": "$X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PredicateNode",
+    "name": "overexpressed"
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "GeneNode",
+        "name": "LOC285483"
+      },
+      {
+        "type": "VariableNode",
+        "name": "$X"
+      }
+    ]
+  },
+  {
+    "type": "GeneNode",
+    "name": "LOC285483"
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "GeneNode",
+        "name": "CCR6"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "GO:0009986"
+      }
+    ]
+  },
+  {
+    "type": "GeneNode",
+    "name": "CCR6"
+  },
+  {
+    "type": "ConceptNode",
+    "name": "GO:0009986"
+  },
+  {
+    "type": "MemberLink",
+    "outgoing": [
+      {
+        "type": "GeneNode",
+        "name": "CCR6"
+      },
+      {
+        "type": "ConceptNode",
+        "name": "GO:0010634"
+      }
+    ]
+  },
+  {
+    "type": "ConceptNode",
+    "name": "GO:0010634"
+  }
+]

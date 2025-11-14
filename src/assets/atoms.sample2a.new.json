@@ -1,0 +1,293 @@
+[
+  {
+    "type": "ConceptNode",
+    "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+  },
+  {
+    "type": "NumberNode",
+    "name": "42.000000"
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LgLinkInstanceNode",
+        "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "LinkGrammarRelationshipNode",
+        "name": "MVa"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "DefinedLinguisticRelationshipNode",
+        "name": "_advmod"
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "WordInstanceNode",
+            "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+          },
+          {
+            "type": "WordInstanceNode",
+            "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "WordNode",
+    "name": "\ud83c\udf0e"
+  },
+  {
+    "type": "WordNode",
+    "name": "he"
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordNode",
+        "name": "\ud83c\udf0e"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ReferenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "ParseNode",
+    "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "runs@ab2940c8-f997-4d4d-9200-80c7ab661019"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+  },
+  {
+    "type": "WordInstanceNode",
+    "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+  },
+  {
+    "type": "WordInstanceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "ParseNode",
+        "name": "sentence@9f079f5d-052f-47d5-aae4-a0f1c1b8ea93_parse_0"
+      }
+    ]
+  },
+  {
+    "type": "WordSequenceLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "NumberNode",
+        "name": "42.000000"
+      }
+    ]
+  },
+  {
+    "type": "LinkGrammarRelationshipNode",
+    "name": "MVa"
+  },
+  {
+    "type": "DefinedLinguisticConceptNode",
+    "name": "adv"
+  },
+  {
+    "type": "DefinedLinguisticRelationshipNode",
+    "name": "_advmod"
+  },
+  {
+    "type": "PartOfSpeechLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "DefinedLinguisticConceptNode",
+        "name": "adv"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "quickly@7c8c7ca3-44bd-46b9-9e09-941254ac91d7"
+      },
+      {
+        "type": "WordNode",
+        "name": "\ud83c\udf0e"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@0dc3eaff-5250-4a13-a49c-b823f1329c73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@be348474-26a7-4bb7-b37a-1cb282327d73"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "LemmaLink",
+    "outgoing": [
+      {
+        "type": "WordInstanceNode",
+        "name": "he@5c3978be-30a7-493b-b276-ebaf4a879669"
+      },
+      {
+        "type": "WordNode",
+        "name": "he"
+      }
+    ]
+  },
+  {
+    "type": "LgLinkInstanceNode",
+    "name": "MVa@48608ad3-93b1-4736-8ab4-aba058391a56"
+  }
+]

@@ -12,11 +12,12 @@ AtomSpace, then displayed as a two dimensional graph in the browser.
 The AtomSpace Explorer needs ... an AtomSpace to explore. This is
 provided by the [CogServer](https://github.com/opencog/cogserver).
 
-There's only one problem: The code in this repo uses an obsolete
-JSON API that no longer exists.  It needs to be replaced by the API
-demoed in the
-[AtomSpace TypeScript](https://github.com/opencog/atomspace-typescript)
-git repo.  This shouldn't be hard, but someone needs to do it.
+**Status Update:** This repository has been updated to support the new
+JSON API format used by
+[AtomSpace TypeScript](https://github.com/opencog/atomspace-typescript).
+The old JSON format (with `handle`, `incoming`, `attentionvalue` fields)
+is still supported for backward compatibility, but new applications
+should use the simplified format described below.
 
 
 ## Install and Setup
@@ -61,24 +62,54 @@ Alternatively, you can permanently change the default port by inserting the foll
 
 - Sample data files reside in [src/assets/](src/assets).
 - Configure which sample data file is utilized via config setting
-  `sample\_data\_file` in `./src/app/app.config.ts`. Then recompile
+  `sample_data_file` in `./src/app/app.config.ts`. Then recompile
   `(ng serve)`.
-- Provided sample files (these all use the now-obsolete json file
-  format, these need to be converted to either the new-style JSON
-  or to Atomese.)
-  - `atoms.sample1.json`: Original built-in sample.
-  - `atoms.sample1a.json`: Same as previous, with some non-zero STI values.
+- Sample files now use the new JSON format (simplified, nested structure).
+  Old format files are preserved with `.json.old` extension.
+  
+### New JSON Format (Recommended)
+The new format is simpler and matches the
+[atomspace-typescript](https://github.com/opencog/atomspace-typescript) API:
+
+```json
+[
+  {
+    "type": "ConceptNode",
+    "name": "human"
+  },
+  {
+    "type": "InheritanceLink",
+    "outgoing": [
+      {"type": "ConceptNode", "name": "Abe"},
+      {"type": "ConceptNode", "name": "human"}
+    ]
+  }
+]
+```
+
+Key differences from old format:
+- Direct array (not wrapped in `result.atoms`)
+- No `handle`, `incoming` fields
+- `outgoing` contains nested atom objects (not handle references)
+- `attentionvalue` and `truthvalue` are optional
+
+### Provided Sample Files
+  - `atoms.humans.json`: Simple inheritance example (new format, default)
+  - `atoms.sample1.json`: Original built-in sample (old format).
+  - `atoms.sample1a.json`: Same as previous, with some non-zero STI values (old format).
   - `atoms.sample1b.json`: Same as previous, plus two additional
-     three-node-clusters.
-  - `atoms.sample2.json`: Original external sample.
+     three-node-clusters (old format).
+  - `atoms.sample2.json`: Original external sample (old format).
   - `atoms.sample2a.json`: Subset of original external sample. Has
-     several double-linked nodes.
+     several double-linked nodes (old format).
   - `atoms.sample2b.json`: Subset of original external sample. Has
-     several double-linked nodes. Plus a triple-linked node.
-  - `atoms.humans.json`: From humans.scm.
-  - `atoms.oovc\_ensemble.json`: From oovc_ensemble.scm.
-  - `atoms.oovc\_ensemble\_sti.json`: Same as previous, with
-    non-zero STI values. <== *Configured as default sample*
+     several double-linked nodes. Plus a triple-linked node (old format).
+  - `atoms.oovc_ensemble.json`: From oovc_ensemble.scm (old format).
+  - `atoms.oovc_ensemble_sti.json`: Same as previous, with
+    non-zero STI values (old format).
+    
+Note: Converted versions of old format files are available as `*.new.json`
+for comparison.
 
 ## Dependencies
 
@@ -94,15 +125,16 @@ Alternatively, you can permanently change the default port by inserting the foll
 
 ## TODO -- Known Issues
 
-- Convert all old-style json to new-style json or to Atomese. Why?
-  (1) The old-style json format no longer exists in the codebase.
-  (2) The Atomese format is slightly more efficient than the new-style
-  json. For may apps, this won't matter; both will work.
+- ~~Convert all old-style json to new-style json or to Atomese~~ ✅ **DONE**:
+  Sample files have been converted to the new JSON format. Old format
+  files are retained for backward compatibility.
 
 - Stop showing Handle and Incoming in the GUI -- these are dynamically
-  assigned garbage values that have no meaning.
+  assigned garbage values that have no meaning in the new format and
+  should be removed from the visualization.
+  
 - Change popup to show all Values, and not just Attention and Truth
-  Vaues. In particular, show the count of a CountTruthValue.
+  Values. In particular, show the count of a CountTruthValue.
 
 - Filtering capability is preliminary and needs to be developed further.
   Filtering is the ability to show only the relevant parts of the

@@ -18,4 +18,15 @@ tmp/
 **/.DS_Store
 .DS_Store
 
+# Windows Zone.Identifier files
+**/*:Zone.Identifier
+
+# Backup and temporary files
+*.old
+*.bak
+*.tmp
+
+# New format sample files (keep originals for reference)
+src/assets/*.new.json
+
 #semantic

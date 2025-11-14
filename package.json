@@ -1,6 +1,8 @@
 {
   "name": "atomspace-explorer",
   "version": "0.22.01",
+  "description": "Visualization tool for Atoms in the AtomSpace",
+  "author": "OpenCog Foundation <info@opencog.org>",
   "license": "Apache-2.0",
   "angular-cli": {},
   "main": "electron.js",

@@ -18,8 +18,6 @@ export const LANG_JP_TRANS = {
   'FilterOnSelection': ' 選択時のフィルター',
   'Unfiltered': 'フィルタリングされていない',
   'ShowAllData': 'すべてのデータを表示',
-  'Handle': 'ハンドル',
-  'Incoming': '着信',
   'Outgoing': '送信',
   'Confidence': '信頼',
   'Strength': '力',

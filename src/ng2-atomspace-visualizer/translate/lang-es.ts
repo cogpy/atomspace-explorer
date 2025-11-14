@@ -18,8 +18,6 @@ export const LANG_ES_TRANS = {
   'FilterOnSelection': 'FILTRO EN LA SELECCIÓN',
   'Unfiltered': 'Sin filtrar',
   'ShowAllData': 'Mostrar todos los datos',
-  'Handle': 'Encargarse de',
-  'Incoming': 'Entrante',
   'Outgoing': 'Saliente',
   'Confidence': 'Confianza',
   'Strength': 'Fuerza',

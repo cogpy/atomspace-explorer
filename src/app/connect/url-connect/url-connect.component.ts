@@ -105,13 +105,17 @@ export class UrlConnectComponent implements OnInit {
     this.connecting = true;
     this.subscription = this.service.get(this.url)
       .subscribe(res => {
-        // const json = JSON.stringify(res); console.log(json);
-        const numAtoms = res.result.atoms.length;
-        numberAtoms = res.result.atoms.length;
+        // Normalize response format (support both old and new formats)
+        const normalizedRes = this.normalizeResponse(res);
+        
+        const numAtoms = normalizedRes.result.atoms.length;
+        numberAtoms = normalizedRes.result.atoms.length;
         console.log('numberAtoms in fetchJson =',numberAtoms);
         // Add default attentionvalue data to prevent error while visualizing
         for (var i = 0; i < numAtoms; i++){
-          res.result.atoms[i]['attentionvalue'] =  {"lti": 0, "sti": 0, "vlti": false};
+          if (!normalizedRes.result.atoms[i]['attentionvalue']) {
+            normalizedRes.result.atoms[i]['attentionvalue'] =  {"lti": 0, "sti": 0, "vlti": false};
+          }
          }
         // console.log(res);
         console.log('Fetched ' + numAtoms + ' atoms from ' + this.url);
@@ -122,8 +126,8 @@ export class UrlConnectComponent implements OnInit {
           return;
         }
         // change the atoms to be visualized
-        this.visualizeResult(res);
-        console.log('res\n',res);
+        this.visualizeResult(normalizedRes);
+        console.log('res\n',normalizedRes);
       }, err => {
         this.connecting = false;
         this.errMsg = err.message;
@@ -140,8 +144,10 @@ export class UrlConnectComponent implements OnInit {
     this.connecting = true;
     this.service.get(this.fileJSON)
       .subscribe(res => {
-        // const json = JSON.stringify(res); console.log(json);
-        const numAtoms = res.result.atoms.length;
+        // Normalize response format (support both old and new formats)
+        const normalizedRes = this.normalizeResponse(res);
+        
+        const numAtoms = normalizedRes.result.atoms.length;
         // console.log(res);
         console.log('Fetched ' + numAtoms + ' atoms from ' + this.fileJSON);
 
@@ -150,12 +156,51 @@ export class UrlConnectComponent implements OnInit {
           return;
         }
         // change the atoms to be visualized
-        this.visualizeResult(res);
+        this.visualizeResult(normalizedRes);
       }, err => {
         this.connecting = false;
         this.errMsg = err.message;
         console.log(err);
       });
+  }
+  
+  /**
+   * Normalize response to support both old and new JSON formats.
+   * Old format: { result: { atoms: [...] } }
+   * New format: [...] (direct array)
+   */
+  private normalizeResponse(res: any): any {
+    // If it's already in the old format, return as-is
+    if (res && res.result && res.result.atoms) {
+      return res;
+    }
+    
+    // If it's an array (new format), wrap it
+    if (Array.isArray(res)) {
+      return {
+        result: {
+          atoms: res,
+          complete: true,
+          total: res.length,
+          skipped: 0
+        }
+      };
+    }
+    
+    // If it has atoms directly
+    if (res && res.atoms) {
+      return {
+        result: {
+          atoms: res.atoms,
+          complete: true,
+          total: res.atoms.length,
+          skipped: 0
+        }
+      };
+    }
+    
+    // Fallback: return as-is
+    return res;
   }
 
   // Fetch unordered link types (used for filter menu)

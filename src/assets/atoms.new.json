@@ -1,0 +1,49 @@
+[
+  {
+    "type": "EvaluationLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "Predicate \"hold\""
+      },
+      {
+        "type": "ListLink",
+        "outgoing": [
+          {
+            "type": "ConceptNode",
+            "name": "Concept \"self\""
+          },
+          {
+            "type": "ConceptNode",
+            "name": "Concept \"key\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PredicateNode",
+    "name": "Predicate \"hold\""
+  },
+  {
+    "type": "ConceptNode",
+    "name": "Concept \"self\""
+  },
+  {
+    "type": "ConceptNode",
+    "name": "Concept \"key\""
+  },
+  {
+    "type": "ListLink",
+    "outgoing": [
+      {
+        "type": "ConceptNode",
+        "name": "Concept \"self\""
+      },
+      {
+        "type": "ConceptNode",
+        "name": "Concept \"key\""
+      }
+    ]
+  }
+]

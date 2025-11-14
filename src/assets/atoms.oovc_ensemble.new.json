@@ -1,0 +1,3246 @@
+[
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FLJ40536"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CHD7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FKBP11"
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FKBP11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CHD7"
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FKBP11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "CHD7"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "SPINT1"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FKBP11"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "LINC00692"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "PCBP4"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PDZD9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PCBP4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "LINC00692"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "MRPS26"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PDZD9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PCBP4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "SPINT1"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FKBP11"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "KCNJ15"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CRISPLD1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TRIM5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PCBP4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "LINC00692"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "RXFP3"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PDZD9"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "STK39"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CRISPLD1"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "KCNJ15"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TPGS1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FREM3"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "TPGS1"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "DCAF8"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CUX1"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "C1orf146"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TPGS1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CRISPLD1"
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FREM3"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PCBP4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "LINC00692"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "TRAF1"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "PDZD9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "DCAF8"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "SLC16A5"
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TPGS1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TPGS1"
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CUX1"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "DCAF8"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FREM3"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "TPGS1"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "DCAF8"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "C1orf146"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TPGS1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CRISPLD1"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TBC1D21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TRIM5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AndLink",
+    "outgoing": [
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FREM3"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "TPGS1"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "DCAF8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TPGS1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CHD7"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FLJ40536"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FKBP11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LINC00692"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "RXFP3"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "PDZD9"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "STK39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LINC00692"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "PCBP4"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "PDZD9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LINC00692"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "TRAF1"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "PDZD9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LINC00692"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "MRPS26"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "PDZD9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FREM3"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "SLC16A5"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "TPGS1"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "DCAF8"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CUX1"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "C1orf146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "CRISPLD1"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TBC1D21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "LINC00692"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "PCBP4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FREM3"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "SLC16A5"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "TPGS1"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "DCAF8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CHD7"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "SPINT1"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FKBP11"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CRISPLD1"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TBC1D21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CRISPLD1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "KCNJ15"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CRISPLD1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FKBP11"
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CHD7"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FLJ40536"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "SPINT1"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FKBP11"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CRISPLD1"
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "TPGS1"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FREM3"
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "CUX1"
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "DCAF8"
+          },
+          {
+            "type": "PredicateNode",
+            "name": "SLC16A5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TRIM5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CRISPLD1"
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "KCNJ15"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "TRIM5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "FREM3"
+          }
+        ]
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              }
+            ]
+          },
+          {
+            "type": "NotLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TPGS1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "OrLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FREM3"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "SLC16A5"
+      },
+      {
+        "type": "PredicateNode",
+        "name": "TPGS1"
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "DCAF8"
+          }
+        ]
+      },
+      {
+        "type": "NotLink",
+        "outgoing": [
+          {
+            "type": "PredicateNode",
+            "name": "C1orf146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FLJ40536"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FKBP11"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "SPINT1"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "RXFP3"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "PDZD9"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "PCBP4"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "CHD7"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "TRIM5"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "TPGS1"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "LINC00692"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "CRISPLD1"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "TBC1D21"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "KCNJ15"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "CUX1"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "SLC16A5"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "STK39"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "FREM3"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "C1orf146"
+      }
+    ]
+  },
+  {
+    "type": "NotLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "DCAF8"
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_13"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CHD7"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_11"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "LINC00692"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PCBP4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "RXFP3"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PDZD9"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "STK39"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_10"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "PCBP4"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PDZD9"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "LINC00692"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PCBP4"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_04"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FREM3"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "SLC16A5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TPGS1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "TPGS1"
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FREM3"
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "SLC16A5"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CUX1"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "DCAF8"
+                  },
+                  {
+                    "type": "PredicateNode",
+                    "name": "SLC16A5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_00"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "KCNJ15"
+                  }
+                ]
+              },
+              {
+                "type": "OrLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CRISPLD1"
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TBC1D21"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CRISPLD1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_09"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "LINC00692"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PCBP4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "TRAF1"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PDZD9"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_02"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CRISPLD1"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "KCNJ15"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TRIM5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_03"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "KCNJ15"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CRISPLD1"
+                  }
+                ]
+              },
+              {
+                "type": "OrLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "KCNJ15"
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TRIM5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_15"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              },
+              {
+                "type": "OrLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "CHD7"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "FLJ40536"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FLJ40536"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CHD7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_06"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "TPGS1"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "DCAF8"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "C1orf146"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FREM3"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "SLC16A5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TPGS1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_14"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CHD7"
+                  }
+                ]
+              },
+              {
+                "type": "OrLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "FKBP11"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "CHD7"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SPINT1"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_05"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "TPGS1"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "DCAF8"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FREM3"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "SLC16A5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TPGS1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_12"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CHD7"
+                  }
+                ]
+              },
+              {
+                "type": "OrLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "FKBP11"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "SPINT1"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FKBP11"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FLJ40536"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_01"
+      },
+      {
+        "type": "OrLink",
+        "outgoing": [
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "KCNJ15"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "TRIM5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AndLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "KCNJ15"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CRISPLD1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_07"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "FREM3"
+                  }
+                ]
+              },
+              {
+                "type": "AndLink",
+                "outgoing": [
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "SLC16A5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NotLink",
+                    "outgoing": [
+                      {
+                        "type": "PredicateNode",
+                        "name": "TPGS1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "FREM3"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "SLC16A5"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "TPGS1"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "DCAF8"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "CUX1"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "C1orf146"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "EquivalenceLink",
+    "outgoing": [
+      {
+        "type": "PredicateNode",
+        "name": "oovc_ensemble:moses_model_08"
+      },
+      {
+        "type": "AndLink",
+        "outgoing": [
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "PredicateNode",
+                "name": "LINC00692"
+              },
+              {
+                "type": "PredicateNode",
+                "name": "MRPS26"
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PDZD9"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OrLink",
+            "outgoing": [
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "LINC00692"
+                  }
+                ]
+              },
+              {
+                "type": "NotLink",
+                "outgoing": [
+                  {
+                    "type": "PredicateNode",
+                    "name": "PCBP4"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_15"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_14"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "CHD7"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "FLJ40536"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "FKBP11"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "SPINT1"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "RXFP3"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "STK39"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "TRAF1"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "PDZD9"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_04"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_03"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "SLC16A5"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_02"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "FREM3"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_13"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "KCNJ15"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "LINC00692"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "MRPS26"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_09"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "TBC1D21"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_05"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_11"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "CRISPLD1"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_01"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_12"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_00"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "TRIM5"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "DCAF8"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_10"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "CUX1"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_06"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_07"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "C1orf146"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "oovc_ensemble:moses_model_08"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "TPGS1"
+  },
+  {
+    "type": "PredicateNode",
+    "name": "PCBP4"
+  }
+]

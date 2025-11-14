@@ -1807,7 +1807,7 @@ export class VisualizerComponent implements AfterViewInit, OnInit, OnDestroy, On
       if (verbose) {
         headText = (d.name === '') ? d.type : d.type + '<hr>' + d.name;
       } else {
-        headText = (d.name === '') ? d.type + ' (' + d.id + ')' : d.type + ' (' + d.id + ')' + '<hr>' + d.name;
+        headText = (d.name === '') ? d.type : d.type + '<hr>' + d.name;
       }
       return getTooltipHTML(d, headText, verbose);
     }
@@ -1816,7 +1816,7 @@ export class VisualizerComponent implements AfterViewInit, OnInit, OnDestroy, On
     * buildLinkTooltip - Construct html for tooltips
     */
     function buildLinkTooltip(d, verbose) {
-      const headText = verbose ? d.name : d.name + ' (' + d.id + ')';
+      const headText = d.name;
       return getTooltipHTML(d, headText, verbose);
     }
 
@@ -1826,14 +1826,10 @@ export class VisualizerComponent implements AfterViewInit, OnInit, OnDestroy, On
    function getTooltipHTML(d, headText, verbose) {
       if (verbose) {
         const translate = VisualizerComponent.this()._translate;
-        let incoming = d.incoming && d.incoming.length ? d.incoming.join(', ') : '';
-        if (incoming.length > maxTooltipInOutLength) { incoming = incoming.substr(0, maxTooltipInOutLength - 3) + '...'; }
         let outgoing = d.outgoing && d.outgoing.length ? d.outgoing.join(', ') : '';
         if (outgoing.length > maxTooltipInOutLength) { outgoing = outgoing.substr(0, maxTooltipInOutLength - 3) + '...'; }
         return '<div class=\'html-detailed-tooltip\'> <table class=\'ui celled striped table\'> <thead> <tr> <th colspan=\'2\'>' +
-          headText + '</th> </tr> </thead> <tbody> <tr> <td class=\'collapsing\'> <span>' + translate.instant('Handle') +
-          '</span> </td> <td>' + d.id + '</td> </tr> <tr> <td> <span>' + translate.instant('Incoming') + '</span> </td> <td>' +
-          incoming + '</td> </tr> <tr> <td> <span>' + translate.instant('Outgoing') + '</span> </td> <td>' + outgoing +
+          headText + '</th> </tr> </thead> <tbody> <tr> <td> <span>' + translate.instant('Outgoing') + '</span> </td> <td>' + outgoing +
           '</td> </tr> <tr> <td> <span>LTI</span> </td> <td>' + d.av.lti + '</td> </tr> <tr> <td> <span>STI</span> </td> <td>' +
           d.av.sti + '</td> </tr> <tr> <td> <span>VLTI</span> </td> <td>' + d.av.vlti + '</td> </tr> <tr> <td> <span>' +
           translate.instant('Confidence') + '</span> </td> <td>' + d.tv.details.confidence + '</td> </tr> <tr> <td> <span>' +

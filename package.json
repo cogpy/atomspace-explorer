@@ -3,13 +3,22 @@
   "version": "0.22.01",
   "license": "Apache-2.0",
   "angular-cli": {},
+  "main": "electron.js",
   "scripts": {
     "ng": "NODE_OPTIONS='--openssl-legacy-provider' ng",
     "start": "NODE_OPTIONS='--openssl-legacy-provider' ng serve",
     "build": "NODE_OPTIONS='--openssl-legacy-provider' ng build",
+    "build:prod": "NODE_OPTIONS='--openssl-legacy-provider' ng build --prod --base-href ./",
     "test": "NODE_OPTIONS='--openssl-legacy-provider' ng test",
     "pree2e": "webdriver-manager update --standalone false --gecko false",
-    "e2e": "protractor"
+    "e2e": "protractor",
+    "electron": "electron .",
+    "electron:build": "npm run build:prod && electron .",
+    "pack": "npm run build:prod && electron-builder --dir",
+    "dist": "npm run build:prod && electron-builder",
+    "dist:mac": "npm run build:prod && electron-builder --mac",
+    "dist:win": "npm run build:prod && electron-builder --win",
+    "dist:linux": "npm run build:prod && electron-builder --linux"
   },
   "private": true,
   "overrides": {
@@ -23,6 +32,11 @@
     "@types/d3-dispatch": "1.0.8",
     "@types/d3-dsv": "1.0.34",
     "@types/geojson": "7946.0.7",
+    "@types/debug": "0.0.30",
+    "@types/ms": "0.7.30",
+    "@types/yargs": "11.1.7",
+    "@types/keyv": "3.1.1",
+    "@types/minimatch": "3.0.3",
     "node-sass": "9.0.0"
   },
   "dependencies": {
@@ -64,6 +78,8 @@
     "@types/jquery": "3.2.17",
     "@types/node": "8.0.47",
     "codelyzer": "^4.0.1",
+    "electron": "^22.3.27",
+    "electron-builder": "^23.6.0",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "jasmine-core": "2.8.0",
@@ -80,5 +96,34 @@
     "typescript": "~2.6.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
+  },
+  "build": {
+    "appId": "org.opencog.atomspace-explorer",
+    "productName": "AtomSpace Explorer",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron.js",
+      "package.json"
+    ],
+    "mac": {
+      "target": "dmg",
+      "icon": "src/assets/icons/icon.icns",
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/icons/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "src/assets/icons/icon.png",
+      "category": "Development"
+    }
   }
 }

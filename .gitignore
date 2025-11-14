@@ -30,3 +30,6 @@ tmp/
 src/assets/*.new.json
 
 #semantic
+
+# Electron build artifacts
+release/

@@ -22,6 +22,14 @@ should use the simplified format described below.
 
 ## Install and Setup
 
+### Prerequisites
+
+- **Node.js**: Version 20 is recommended (see `.nvmrc` file). 
+  - The project has been configured to work with Node.js 20 using legacy OpenSSL provider
+  - If using nvm: `nvm use` or `nvm install` in the project root
+
+### Installation
+
 ``` bash
 sh                                  # Inside the root directory of this file
 npm install                         # Install all dependencies.

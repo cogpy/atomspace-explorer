@@ -47,6 +47,40 @@ Alternatively, you can permanently change the default port by inserting the foll
 
 ```
 
+## Electron Desktop Application
+
+The AtomSpace Explorer can be packaged as a standalone desktop application using Electron.
+
+### Running as Electron App
+
+```bash
+# Build the Angular app and run in Electron (development)
+npm run electron:build
+
+# Or build first, then run
+npm run build:prod
+npm run electron
+```
+
+### Building Desktop Installers
+
+```bash
+# Build for all platforms
+npm run dist
+
+# Build for specific platforms
+npm run dist:mac      # macOS .dmg
+npm run dist:win      # Windows installer
+npm run dist:linux    # Linux AppImage and .deb
+
+# Create unpacked directory (for testing)
+npm run pack
+```
+
+The built applications will be in the `release/` directory.
+
+**Note:** The Electron app requires the Angular build to be completed first. The `build:prod` script creates an optimized production build with the correct base path for Electron.
+
 ## Usage
 
 1. Navigate to [http://localhost:4200/](http://localhost:4200/)

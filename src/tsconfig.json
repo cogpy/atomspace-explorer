@@ -15,5 +15,10 @@
     "typeRoots": [
       "../node_modules/@types"
     ]
-  }
+  },
+  "exclude": [
+    "../node_modules/@types/debug",
+    "../node_modules/@types/ms",
+    "../node_modules/@types/keyv"
+  ]
 }
